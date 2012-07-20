@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -80,12 +79,10 @@
 
     <script>
     $(document).ready(function() {
-console.log("doc ready booyah!");
-      $("#simButton").on("click", function() {
-          console.log("i was clicked");
-        var firstValue = Number($("#first").val());
-          console.log(firstValue);
-        var secondValue = Number($("#second").val());
+
+      $("#sumButton").on("click", function() {
+        var firstValue = $("#first").val();
+        var secondValue = $("#second").val();
 
         var sum = firstValue+secondValue;
 
